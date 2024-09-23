@@ -1,0 +1,15 @@
+material grasAlbedo/Diffuse
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Grass_Albedo.png
+            }
+        }
+    }
+
+}

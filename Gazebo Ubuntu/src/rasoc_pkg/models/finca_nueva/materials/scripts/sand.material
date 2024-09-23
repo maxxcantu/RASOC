@@ -1,0 +1,15 @@
+material sandAlbedo/Diffuse
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Sand_Albedo.png
+            }
+        }
+    }
+
+}
